@@ -1,0 +1,81 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+	height: 1200px;
+	margin: 0 auto;
+}
+
+.skyline {
+	height: 300px;
+	width: 100%;
+	background-image: url(../images/skyline.jpg);
+	background-repeat:	no-repeat;
+	background-position: center;
+	margin-bottom: 50px;
+	background-size: cover;
+}
+
+.circle {
+	background-image: url(../images/TIYlogo.png);
+	background-color: black;
+	background-position: center;
+	border-radius: 50%;
+	border: 50px solid red;
+	position: absolute;
+	top: -105px;
+	left: 105px;
+}
+
+.cf:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mbox {
+	position: relative;
+	margin: 0 auto;
+	height: 600px;
+	width: 40%;
+}
+
+.inLeft {
+	margin: 0px;
+	border-bottom: 10px;
+	border-color: solid black;
+}
+
+
+.lbox {
+	position: absolute; 
+	right: 100%;
+	height: 600px;
+	width: 50%;
+	padding: 0px 48px 0px 48px;
+
+}
+.picInMBox {
+
+	background-image: url(../images/classroom.jpg);
+	background-repeat:	no-repeat;
+	background-position: center;
+	background-size: cover; 
+	height: 120px;
+
+
+}
+.rbox{
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	height: 75px;
+	width: 20%;
+	border: 2px solid black;
+
+}
+
+
+
+
